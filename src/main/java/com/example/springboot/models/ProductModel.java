@@ -23,10 +23,6 @@ public class ProductModel extends RepresentationModel<ProductModel> implements S
         return idProduct;
     }
 
-    public void setIdProduct(UUID idProduct) {
-        this.idProduct = idProduct;
-    }
-
     public String getName() {
         return name;
     }
